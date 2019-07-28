@@ -1,6 +1,6 @@
 import React, { Component } from 'react';
 import { Tabs, Tab, CardTitle, CardText, CardActions, Card, Button, Grid, Cell } from 'react-mdl';
-import Bakery from './images/01.jpg'
+
 class Projects extends Component {
     constructor(props) {
         super(props);
@@ -10,61 +10,52 @@ class Projects extends Component {
     toggleCategories() {
         if (this.state.activeTab === 0) {
             return <Grid className="demo-grid-1">
-            <Cell col={5}>
+            <Cell col={6}>
                     <Card className='card'>
-                    <CardTitle expand style={{ color: '#fff', background: 'url(https://milano12345.github.io/images/gallery/thumbs/01.jpg) bottom right 50% no-repeat' }}>Bakery Website</CardTitle>
+                    <CardTitle style={{color: '#fff', height: '220px', background: 'url(https://milano12345.github.io/images/gallery/thumbs/01.jpg) center / cover'}}>Bakery Website</CardTitle>
                         <CardText>
-                            This was made using HTML/CSS
+                            This was made using HTML/CSS. 
                             </CardText>
                         <CardActions border>
-                            <Button colored>Link to CodePen</Button>
+                            <Button href="https://codepen.io/Fall3n/pen/eXwNOO" colored>Link to CodePen</Button>
                         </CardActions>
                      </Card>
                      </Cell>
-                     <Cell col={5}>
+                     <Cell col={6}>
                     <Card className='card'>
-                    <CardTitle expand style={{ color: '#fff', background: 'url(https://milano12345.github.io/images/Screenshot%20(6).png) bottom right 50% no-repeat #46B6AC' }}>Responsive Website</CardTitle>
+                    <img src={require("./images/Screenshot (6).png")} style={{color: '#fff', height: '218px' }}  alt={'Responsive Web Designs'}/>
                         <CardText>
-                            This was made using HTML/CSS. Integrating responsive web design.
+                             Integrating responsive web design using media queries at varying width's.
                             </CardText>
                         <CardActions border>
-                            <Button colored>Link to CodePen</Button>
+                            <Button href='https://github.com/milano12345/responsive-web-design-I' colored>Link to Github</Button>
                         </CardActions>
                      </Card>
                      </Cell>
-                     <Cell col={5}>
+                     <Cell col={6}>
                     <Card className='card'>
-                    <CardTitle expand style={{ color: '#fff', background: 'url(https://milano12345.github.io/images/Screenshot%20(7).png) bottom right 50% no-repeat #46B6AC' }}>Advanced CSS challenge</CardTitle>
+                        <img src={require('./images/Screenshot (7).png')} style={{color: '#fff', height: '218px'}} alt={'Responsive Web Designs'}/>
                         <CardText>
-                            This was made using HTML/CSS using advanced techniques.
+                            This was made with HTML/CSS using advanced techniques including flexbox!
                             </CardText>
                         <CardActions border>
-                            <Button colored>Link to CodePen</Button>
+                            <Button href="https://github.com/milano12345/Sprint-Challenge--Advanced-CSS/tree/daniel-milano" colored>Link to Github</Button>
                         </CardActions>
                      </Card>
                      </Cell>
-                     <Cell col={5}>
+                     <Cell col={6}>
                     <Card className='card'>
-                    <CardTitle expand style={{ color: '#fff', background: 'url(https://milano12345.github.io/images/Screenshot%20(8).png) bottom right 50% no-repeat #46B6AC' }}>User Interface Challenge</CardTitle>
+                        <img src={require('./images/Screenshot (8).png')} style={{color: '#fff', height: '218px'}} alt={'Responsive Web Designs'}/>
                         <CardText>
-                            This was made using HTML/CSS. Integrating Flexbox.
+                            User Interface!
                             </CardText>
                         <CardActions border>
-                            <Button colored>Link to GitHub</Button>
+                            <Button href="https://github.com/milano12345/Sprint-Challenge--User-Interface" colored>Link to CodePen</Button>
                         </CardActions>
                      </Card>
                      </Cell>
-                     <Cell col={5}>
-                    <Card className='card'>
-                    <CardTitle expand style={{ color: '#fff', background: 'url(https://milano12345.github.io/images/Screenshot%20(9).png) bottom right 50% no-repeat #46B6AC' }}>Preprocessor Use</CardTitle>
-                        <CardText>
-                            This was made using HTML/CSS. Utitilizing the Preprocessor LESS.
-                            </CardText>
-                        <CardActions border>
-                            <Button colored>Link to GitHub</Button>
-                        </CardActions>
-                     </Card>
-                     </Cell>
+            
+    
         </Grid>
         } else if (this.state.activeTab === 1) {
             return <div>Welcome to React</div>
