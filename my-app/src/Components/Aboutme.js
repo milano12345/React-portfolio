@@ -7,7 +7,7 @@ class AboutMe extends Component {
             <h1 class={'name'}>Daniel Milano</h1>
             <span>Full Stack Web Developer/WakeBoarder</span>
             <img src={require('./images/02.jpg')} className="avatar-img" alt={'Tailgrab on a wakeboard.'} />
-            
+        
             <p>Hey</p>
             </div>
 
