@@ -21,10 +21,10 @@ class Contact extends Component {
                                 <ListItemContent style={{fontSize: '25px' }} icon="person">Daniel Milano</ListItemContent>
                             </ListItem>
                             <ListItem>
-                                <ListItemContent style={{fontSize: '25px' }} icon="mail">E-mail: dmilano857@gmail.com </ListItemContent>
+                                <ListItemContent style={{fontSize: '25px' }} icon="mail">Dmilano857@gmail.com </ListItemContent>
                             </ListItem>
                             <ListItem>
-                                <ListItemContent style={{fontSize: '25px' }} icon="phone">Phone: 201-560-8737</ListItemContent>
+                                <ListItemContent style={{fontSize: '25px' }} icon="phone">201-560-8737</ListItemContent>
                             </ListItem>
                         </List>
                         </div>
