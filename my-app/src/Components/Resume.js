@@ -19,7 +19,7 @@ class Resume extends Component {
                             of Malorum for use in a type specimen book.</p>
                     </Cell>
                     <Cell className='resume-right-col' col={8}>
-                        <h1>Education</h1>
+                        <h2>Education</h2>
                         <Education 
                         startYear={2019} 
                         endYear={2020} 
