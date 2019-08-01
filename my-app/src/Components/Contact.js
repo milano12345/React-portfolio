@@ -1,5 +1,5 @@
-import React, {Component} from 'react';
-import {Grid, Cell} from 'react-mdl';
+import React, { Component } from 'react';
+import { Grid, Cell, List, ListItem, ListItemContent } from 'react-mdl';
 
 class Contact extends Component {
     render() {
@@ -8,9 +8,28 @@ class Contact extends Component {
                 <Grid className='contact-grid'>
                     <Cell col={6}>
                         <p className='name'> Daniel Milano </p>
-                        <img src={require('./images/03.jpg')} className="avatar-img" alt={'Computer Edited Pencil Drawing'} />
+                        <img src='https://cdn2.iconfinder.com/data/icons/avatar-2/512/Fred_man-512.png' style={{ height: '250px' }} className="avatar-img2" alt={'Computer Edited Pencil Drawing'} />
+                        <p className='contact_description'>Lorem ipsum, or lipsum as it is sometimes known, is dummy text used in laying out print, graphic or web designs.
+                            The passage is attributed to an unknown typesetter in the 15th century who is thought to have scrambled parts
+                            of Malorum for use in a type specimen book.</p>
                     </Cell>
-                    <Cell col={6}>Other Half</Cell>
+                    <Cell col={6}>
+                        <p className='name'>Contact Me!</p>
+                        <hr />
+                        <div className='contact-list'>
+                        <List>
+                            <ListItem>
+                                <ListItemContent style={{fontSize: '25px' }} icon="person">Daniel Milano</ListItemContent>
+                            </ListItem>
+                            <ListItem>
+                                <ListItemContent style={{fontSize: '25px' }} icon="mail">E-mail: dmilano857@gmail.com </ListItemContent>
+                            </ListItem>
+                            <ListItem>
+                                <ListItemContent style={{fontSize: '25px' }} icon="phone">Phone: 201-560-8737</ListItemContent>
+                            </ListItem>
+                        </List>
+                        </div>
+                    </Cell>
                 </Grid>
             </div>
         )
