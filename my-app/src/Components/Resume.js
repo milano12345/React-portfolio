@@ -11,7 +11,7 @@ class Resume extends Component {
                         <div style={{textAlign: 'center'}}>
                     <img src='https://cdn2.iconfinder.com/data/icons/avatar-2/512/Fred_man-512.png' style={{ height: '250px' }} className="avatar-img2" alt={'Computer Edited Pencil Drawing'} />
                              </div>
-                        <h2 style={{paddingTop:'1em'}}>Daniel Milano</h2>
+                        <h2>Daniel Milano</h2>
                         <h3 style={{color: 'grey'}}>Programmer</h3>
                         <hr style={{borderTop: '3px solid #833fb2', width: '50%'}}></hr>
                         <p>Lorem ipsum, or lipsum as it is sometimes known, is dummy text used in laying out print, graphic or web designs.

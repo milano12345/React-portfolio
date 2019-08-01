@@ -10,8 +10,7 @@ class Contact extends Component {
                         <p className='name'> Daniel Milano </p>
                         <img src='https://cdn2.iconfinder.com/data/icons/avatar-2/512/Fred_man-512.png' style={{ height: '250px' }} className="avatar-img2" alt={'Computer Edited Pencil Drawing'} />
                         <p className='contact_description'>Lorem ipsum, or lipsum as it is sometimes known, is dummy text used in laying out print, graphic or web designs.
-                            The passage is attributed to an unknown typesetter in the 15th century who is thought to have scrambled parts
-                            of Malorum for use in a type specimen book.</p>
+                            </p>
                     </Cell>
                     <Cell col={6}>
                         <p className='name'>Contact Me!</p>
