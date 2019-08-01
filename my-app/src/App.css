@@ -151,7 +151,7 @@ margin-top: 1em;
 .contact_description {
   width: 75%;
   margin: auto;
-  padding-top: 1em;
+  padding-top: 3px;
   font-family: 'Barlow', sans-serif;
 }
 
@@ -190,13 +190,15 @@ background-color: #27221F;
 color: white;
 }
 
+/* About Me styles */
 .about-me-left{
   background-color: #27221F;
   color: white;
-  margin: auto;
-  width: 100%;
-  height: 100%;
-  justify-content: center;
-  text-align: center;
-  position: fixed;
+
+
+}
+
+.about-me-right {
+  color: black;
+  background-color: white;
 }
