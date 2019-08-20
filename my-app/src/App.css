@@ -68,6 +68,9 @@ height: 100%;
 
 }
 
+h2 {
+  margin-bottom: 0px!important
+}
 .container {
 width: 100%;
 height: auto;
@@ -146,6 +149,7 @@ margin-top: 1em;
   position: fixed;
   padding-top: 3rem;
   justify-content: center;
+  overflow: scroll;
 }
 
 .contact_description {
@@ -162,7 +166,7 @@ margin-top: 1em;
   color: black;
   border: 2px solid red;
   width: 88%;
-  height: 498px;
+  height: auto;
   box-shadow: 50%;
 }
 
@@ -170,7 +174,8 @@ margin-top: 1em;
   font-family: 'Barlow', sans-serif;
   font-weight: bolder;
   font-size: 4rem;
-  margin-top: 1rem;
+  margin-top: 4rem;
+  line-height: 44px;
 }
 
 .contact-grid hr {
@@ -201,4 +206,12 @@ color: white;
 .about-me-right {
   color: black;
   background-color: white;
+}
+
+.mdl-list-item {
+  overflow: visible!important
+}
+
+p {
+  margin: 16px!important
 }

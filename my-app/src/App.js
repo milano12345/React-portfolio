@@ -6,7 +6,6 @@ import {Layout, Header, Navigation, Drawer, Content} from 'react-mdl';
 
 function App() {
   return (
-    <Router>
     <div className="App">
     <div className="demo-big-content">
     <Layout>
@@ -34,7 +33,6 @@ function App() {
     </Layout>
 </div>
     </div>
-    </Router>
   );
 }
 
