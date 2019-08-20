@@ -18,13 +18,13 @@ class Contact extends Component {
                         <div className='contact-list'>
                         <List>
                             <ListItem>
-                                <ListItemContent style={{fontSize: '25px' }} icon="person">Daniel Milano</ListItemContent>
+                                <ListItemContent style={{fontSize: '1.6rem' }} icon="person">Daniel Milano</ListItemContent>
                             </ListItem>
                             <ListItem>
-                                <ListItemContent style={{fontSize: '25px' }} icon="mail">Dmilano857@gmail.com </ListItemContent>
+                                <ListItemContent style={{fontSize: '1.6rem' }} icon="mail">Dmilano857 @gmail.com </ListItemContent>
                             </ListItem>
                             <ListItem>
-                                <ListItemContent style={{fontSize: '25px' }} icon="phone">201-560-8737</ListItemContent>
+                                <ListItemContent style={{fontSize: '1.6rem' }} icon="phone">201-560-8737</ListItemContent>
                             </ListItem>
                         </List>
                         </div>

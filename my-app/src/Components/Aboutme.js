@@ -19,7 +19,9 @@ class AboutMe extends Component {
             </Cell>
             <Cell className='resume-right-col' col={8}>
                 <h2>About Me</h2>
-                
+                <p>Lorem ipsum, or lipsum as it is sometimes known, is dummy text used in laying out print, graphic or web designs.
+                    The passage is attributed to an unknown typesetter in the 15th century who is thought to have scrambled parts
+                    of Malorum for use in a type specimen book.</p>
                    
             </Cell>
         </Grid>
