@@ -9,17 +9,17 @@ class Resume extends Component {
                 <Grid>
                     <Cell className='resume-left-col' col={4}>
                         <div style={{textAlign: 'center'}}>
-                    <img src='https://cdn2.iconfinder.com/data/icons/avatar-2/512/Fred_man-512.png' style={{ height: '250px' }} className="avatar-img2" alt={'Computer Edited Pencil Drawing'} />
+                    <img src={require("./images/IMG_1569.jpg")} className="avatar-img2" alt={'Computer Edited Pencil Drawing'} />
                              </div>
                         <h2>Daniel Milano</h2>
                         <h3 style={{color: 'grey'}}>Programmer</h3>
                         <hr style={{borderTop: '3px solid #833fb2', width: '50%'}}></hr>
-                        <p>Lorem ipsum, or lipsum as it is sometimes known, is dummy text used in laying out print, graphic or web designs.
-                            The passage is attributed to an unknown typesetter in the 15th century who is thought to have scrambled parts
-                            of Malorum for use in a type specimen book.</p>
+                        <div className='text-card'>
+                        <p style={{textAlign: 'left', padding:'16px', color:'darkgray'}}>Daniel is a driven, motivated individual with a passion for learning new technologies. He has been tinkering with websites since the young age of 10. From running bots on Runescape to save precious time,  utilizing Tamper data on Firefox to hack games in the early stages of Facebook, rooting Android phones/ flashing ROMs, and of course, full design customization on MySpace. Daniel has since matured and now spends his time more productively, learning full stack web development so he can contribute something meaningful and worthwhile to mankind.</p>
+                        </div>
                     </Cell>
                     <Cell className='resume-right-col' col={8}>
-                        <h2>Education</h2>
+                        <h2 style={{marginLeft: '14px'}}>Education</h2>
                         <Education 
                         startYear={2019} 
                         endYear={2020} 
