@@ -68,8 +68,26 @@ height: 100%;
 
 }
 
+ul{
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 1.5rem!important;
+  line-height: 56px!important;
+  padding: 23px;
+  color: darkslategray;
+}
 h2 {
   margin-bottom: 0px!important
+}
+
+h4 {
+  margin-left: 25px;
+  margin-top: 24px;
+}
+
+p {
+  font-size: 16px;
+  color: gray;
+  padding: 22px;
 }
 .container {
 width: 100%;
@@ -84,9 +102,9 @@ height: auto;
 }
 
 .avatar-img2 {
-  height: 250px;
-  border-radius: 10%;
-  margin: 2em;
+  width: 80%;
+  border-radius: 15%;
+  margin-top: 3em;
 }
 
 .banner-text {
@@ -102,18 +120,21 @@ height: auto;
   font-size: 3rem;
   font-weight: bold;
   color: white;
+  margin-bottom: 3px;
+  padding: 2px;
 }
 
 .banner-text hr {
   border-top: 5px dotted white;
   width: 50%;
   margin: auto;
+  margin-bottom: 3px;
 }
 
 .banner-text p {
   color: white;
   font-size: 3 rem;
-  padding: 1em;
+  padding-bottom: 16px;
 }
 
 .social-links {
@@ -124,7 +145,7 @@ margin-top: 1em;
 }
 
 .icon {
-  width: 5%;
+  width: 8%;
   height: auto;
   margin-right: 2em;
 }
@@ -142,14 +163,11 @@ margin-top: 1em;
 }
 
 .contact-body {
-  background: lightsteelblue;
   margin: auto;
   width: 100%;
   height: 100%;
-  position: fixed;
   padding-top: 3rem;
   justify-content: center;
-  overflow: scroll;
 }
 
 .contact_description {
@@ -174,7 +192,7 @@ margin-top: 1em;
   font-family: 'Barlow', sans-serif;
   font-weight: bolder;
   font-size: 4rem;
-  margin-top: 4rem;
+  margin-top: 2rem;
   line-height: 44px;
 }
 
@@ -184,9 +202,7 @@ margin-top: 1em;
   margin: auto;
 }
 
-.contact-list {
-  margin: 4rem;
-}
+
 
 /* Resume Styles */
 
@@ -212,6 +228,21 @@ color: white;
   overflow: visible!important
 }
 
-p {
-  margin: 16px!important
+.mdl-layout {
+background: url(https://images.pexels.com/photos/1227520/pexels-photo-1227520.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940);
+}
+
+.resume-right-col {
+  opacity: .7;
+  border-radius: 5%;
+}
+
+.text-card {
+  background-color: black;
+  opacity: .7;
+  border-radius: 5%;
+}
+
+.mdl-navigation__link {
+  font-size: 17px!important
 }

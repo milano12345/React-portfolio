@@ -1,6 +1,6 @@
 import React from 'react';
 import './App.css';
-import {BrowserRouter as Router, Link} from 'react-router-dom';
+import {Link} from 'react-router-dom';
 import Main from './Components/Main'
 import {Layout, Header, Navigation, Drawer, Content} from 'react-mdl';
 
