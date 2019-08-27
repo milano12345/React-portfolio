@@ -30,10 +30,12 @@ function App() {
         </Drawer>
         <Content>
           <Main />
+          
           <BottomNav/>
-            <div className="page-content" />
         </Content>
     </Layout>
+    
+
 </div>
     
     </div>

@@ -5,7 +5,7 @@ function BottomNav() {
 
     return (
         <div className='nav-wrapper'>
-        <p style={{textAlign:'center'}}>
+        <p style={{textAlign:'center', paddingTop:'20px', fontSize:'18px'}}>
 		&copy; Daniel Milano Design
 	</p>
         </div>
