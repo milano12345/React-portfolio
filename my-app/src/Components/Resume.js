@@ -77,6 +77,24 @@ class Resume extends Component {
                             -Completed all curriculum course work including: React, React Native, Redux, Node, Express, MongoDB, Jest, Python, Django, etc.
                             -Write production-ready code using ReactJS, Redux, and CSS on the frontend and NodeJS and Express on the backend to build single page applications."
             />
+            <button
+              style={{
+                color: "black",
+                backgroundColor: "white",
+                marginLeft: "25%",
+                height: "4%",
+                borderRadius: "5%",
+                width: "20%",
+              }}
+            >
+              <a
+                href={"resumeDanielMilano.pdf"}
+                style={{ color: "black" }}
+                download
+              >
+                Download Resumé
+              </a>
+            </button>
           </Cell>
         </Grid>
       </div>

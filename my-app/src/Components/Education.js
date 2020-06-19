@@ -5,7 +5,7 @@ class Education extends Component {
   render() {
     return (
       <Grid>
-        <Cell col={4}>
+        <Cell col={4} style={{ marginRight: "-9%" }}>
           <h4>
             {this.props.startYear} - {this.props.endYear}
           </h4>
