@@ -24,7 +24,7 @@ class Resume extends Component {
                   color: "grey",
                   paddingRight: "5%",
                   paddingLeft: "5%",
-                  paddingTop: "5%",
+                  paddingTop: "2%",
                 }}
               >
                 Summary
@@ -59,7 +59,16 @@ class Resume extends Component {
             </div>
           </Cell>
           <Cell className="resume-right-col" col={8}>
-            <h2 style={{ marginLeft: "14px" }}>Education</h2>
+            <h5
+              style={{
+                color: "grey",
+                paddingRight: "5%",
+                paddingLeft: "5%",
+                paddingTop: "2%",
+              }}
+            >
+              Education
+            </h5>
             <Education
               startYear={2019}
               endYear={2020}
