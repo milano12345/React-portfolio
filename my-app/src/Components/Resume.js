@@ -84,7 +84,7 @@ class Resume extends Component {
                 marginLeft: "25%",
                 height: "4%",
                 borderRadius: "5%",
-                width: "20%",
+                width: "46%",
               }}
             >
               <a
